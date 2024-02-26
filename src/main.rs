@@ -1,9 +1,9 @@
-/*run all functions in lib.rs */
+/* run all functions in lib.rs */
 
 use trust::add;
-use trust::div;
-use trust::mul;
 use trust::sub;
+use trust::mul;
+use trust::div;
 
 fn main() {
     println!("Hello, world!");
