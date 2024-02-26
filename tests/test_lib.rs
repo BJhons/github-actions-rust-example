@@ -23,3 +23,8 @@ fn test_mul() {
 fn test_div() {
     assert_eq!(div(1, 2), 0);
 }
+
+#[test]
+fn test_mul_div() {
+    assert_eq!(div(mul(1,2), 2), 1)
+}
